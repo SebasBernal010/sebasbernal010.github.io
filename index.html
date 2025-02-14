@@ -1,92 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-</head>
-<body>
-    
-
-      <footer>
-        <div class="footer-content">
-            <p>&copy; 2025 Mi Empresa. Todos los derechos reservados.</p>
-            <nav>
-                <ul>
-                    <li><a href="#home">Inicio</a></li>
-                    <li><a href="#about">Acerca de</a></li>
-                    <li><a href="#services">Servicios</a></li>
-                    <li><a href="#contact">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
-    
+    <title>Mi Página Web</title>
     <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos para la barra de navegación */
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+
+        /* Estilos para el pie de página */
         footer {
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 20px 0;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
         }
-        .footer-content {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        footer p {
-            margin: 0;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
-        nav ul li a:hover {
-            text-decoration: underline;
+
+        /* Estilo del contenido principal */
+        .content {
+            padding: 20px;
         }
     </style>
+</head>
+<body>
+
+    <!-- Barra de menú -->
+    <nav>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Acerca de</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="content">
+        <h1>Bienvenidos a Mi Página Web</h1>
+        <p>Este es un ejemplo de una página con barra de menú y pie de página.</p>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Mi Empresa. Todos los derechos reservados.</p>
+    </footer>
+
 </body>
 </html>
