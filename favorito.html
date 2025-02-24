@@ -7,6 +7,61 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Man - El Hombre de Hierro</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #d9534f;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 30px;
+            flex-wrap: wrap;
+        }
+        .bio {
+            max-width: 600px;
+            font-size: 1.2em;
+            line-height: 1.6em;
+        }
+        .bio p {
+            margin-bottom: 20px;
+        }
+        .image {
+            max-width: 400px;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+    </style>
+
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -29,5 +84,28 @@
           </div>
         </div>
     </nav>
+
+    <header>
+        <h1>Iron Man - El Hombre de Hierro</h1>
+    </header>
+  
+    <div class="container">
+        <div class="bio">
+            <h2>Biografía</h2>
+            <p>Tony Stark, también conocido como Iron Man, es un genio, multimillonario, playboy y filántropo. Después de ser secuestrado por terroristas y forzado a construir un arma, Stark crea una armadura avanzada para escapar y salvar su vida. Después de este evento, se convierte en un héroe conocido como Iron Man, usando su inteligencia y tecnología para proteger al mundo de diversas amenazas.</p>
+            <p>Como el fundador de los Vengadores, Tony Stark es uno de los pilares del Universo Cinematográfico de Marvel. Su lucha constante por hacer el bien, su evolución personal y sus sacrificios son fundamentales para la historia de los superhéroes modernos.</p>
+            <h3>Datos curiosos:</h3>
+            <ul>
+                <li>El traje de Iron Man tiene múltiples versiones con diferentes habilidades.</li>
+                <li>Su primer aparición en los cómics fue en 1963 en "Tales of Suspense #39".</li>
+                <li>Es uno de los miembros fundadores de los Vengadores.</li>
+            </ul>
+        </div>
+  
+        <div class="image">
+            <img src="img/ironman.jpg" alt="Iron Man">
+        </div>
+    </div>
+  
 </body>
 </html>
